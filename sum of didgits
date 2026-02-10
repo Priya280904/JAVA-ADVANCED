@@ -1,0 +1,31 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int sum=0;
+      while(i>0){
+        int r= i%10;
+        sum=sum+r;
+      i=i/10;
+      }
+              System.out.println(sum);
+    }
+}
+another code:
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int sum=0;
+      while(i>0){
+        int r= i%10;
+           System.out.println(r);
+      
+      i=i/10;
+      }
+              
+    }
+}
