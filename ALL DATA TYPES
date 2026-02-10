@@ -1,0 +1,27 @@
+1.code:
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        byte b = sc.nextByte();
+        short s = sc.nextShort();
+        int i = sc.nextInt();
+        float f = sc.nextFloat();
+        long l = sc.nextLong();
+        double d = sc.nextDouble();
+        char c = sc.next().charAt(0);
+        sc.nextLine();//between getting string input some values
+        String str = sc.nextLine();
+        System.out.println("Byte: " + b);
+        System.out.println("Short: " + s);
+        System.out.println("Int: " + i);
+        System.out.println("Float: " + f);
+        System.out.println("Long: " + l);
+        System.out.println("Double: " + d);
+        System.out.println("Char: " + c);
+        System.out.println("String: " + str);
+        sc.close();
+    }
+}
+
+
