@@ -1,5 +1,4 @@
-1.code:linear serach frontward
-  
+1.code:linear serach frontward:
 import java.util.*;
 public class Main{
 public static void main(String[] args) {
@@ -24,7 +23,9 @@ public static void main(String[] args) {
     }
       }
     }
+
 2.code:linear search backward:
+
 import java.util.*;
 public class Main
 {
@@ -42,11 +43,11 @@ public static void main(String[] args) {
       if (arr[i]==search){
         indicate=true;
         System.out.println(a+" position");
-      
       }
     }
     if(indicate==false){
       System.out.println("no data present");
+
 
 
 
