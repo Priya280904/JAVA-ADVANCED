@@ -1,0 +1,340 @@
+1.code:linear serach frontward
+  
+import java.util.*;
+public class Main{
+public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+    int size = sc.nextInt();
+    int arr[] = new int[size];
+    for (int i=0;i<size;i++){
+      arr[i]=sc.nextInt();
+    }
+    int search = sc.nextInt();
+    boolean indicate= false;
+    for(int i=0;i<size; i++){
+      if (arr[i]==search){
+        indicate=true;
+        System.out.println(i+1+" position");
+        break;
+      }
+    }
+    if(indicate==false){
+      System.out.println("no data present");
+      
+    }
+      }
+    }
+2.code:linear search backward:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+    int size = sc.nextInt();
+    int arr[] = new int[size];
+    for (int i=0;i<size;i++){
+      arr[i]=sc.nextInt();
+    }
+    int search = sc.nextInt();
+    boolean indicate= false;
+    int a=1;
+    for(int i=size-1;i>=0; i--,a++){
+      if (arr[i]==search){
+        indicate=true;
+        System.out.println(a+" position");
+      
+      }
+    }
+    if(indicate==false){
+      System.out.println("no data present");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      
+    }
+      }
+    }
+3.code
+  import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+    int size = sc.nextInt();
+    int arr[] = new int[size];
+    for (int i=0;i<size;i++){
+      arr[i]=sc.nextInt();
+    }
+           for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size - i - 1; j++)        {
+        if(arr[j]>arr[j+1]){
+          int s=arr[j];
+          arr[j]=arr[j+1];
+          arr[j+1]=s;
+        }
+        //System.out.print("1");
+      }
+      System.out.println();
+    }
+   System.out.println(Arrays.toString(arr));
+}
+}
